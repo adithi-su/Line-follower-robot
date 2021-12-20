@@ -1,3 +1,4 @@
+ARDUINO - CODE
 void setup() {
 //content that runs only once goes here
 }
@@ -15,6 +16,7 @@ To set input/output use PINMODE(pin_no, mode);
 To read analog values from the analog pins use data_type(int in this case) var_name = analogRead(pin_no); // returns value between 0 and 1023
 digitalWrite(pin_no, HIGH/LOW);
 LED - connect anode(longer terminal) to #pin_no, cathode to GND pin
+DC motor terminals - Red (positive), Black (negative)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
