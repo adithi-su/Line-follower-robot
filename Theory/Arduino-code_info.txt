@@ -1,15 +1,20 @@
 void setup() {
-//content goes here
+//content that runs only once goes here
 }
 void loop() {
-//content goes here
+//content that runs repeatedly within the loop goes here
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 > Serial.begin(9600); //within setup()
 Arduino serial communication: Serial is used for communication between the Arduino board and a computer or other devices.
 All Arduino boards have at least one serial port (also known as a UART or USART): Serial.
 It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB.
+> Serial.println( "statement to be printed" + String(non-string variable) );
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To set input/output use PINMODE(pin_no, mode);
+To read analog values from the analog pins use data_type(int in this case) var_name = analogRead(pin_no); // returns value between 0 and 1023
+digitalWrite(pin_no, HIGH/LOW);
+LED - connect anode(longer terminal) to #pin_no, cathode to GND pin
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
